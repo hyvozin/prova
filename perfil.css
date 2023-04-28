@@ -1,0 +1,58 @@
+/* Define uma cor de fundo para a página */
+body {
+    background-color: #333;
+    color: #f8f8f8;
+}
+
+/* Define o estilo para o cabeçalho com o título */
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Define o estilo para a imagem */
+img {
+    border-radius: 50%;
+}
+
+/* Define o estilo para a tabela que contém as informações do perfil */
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/* Define o estilo para os itens da lista de informações do perfil */
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Define o estilo para o bloco de descrição */
+h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Define o estilo para o botão de acesso ao currículo */
+input[type=submit] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
