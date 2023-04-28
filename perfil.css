@@ -1,3 +1,8 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
 /* Define uma cor de fundo para a página */
 body {
     background-color: #333;
@@ -45,7 +50,7 @@ p {
 /* Define o estilo para o botão de acesso ao currículo */
 input[type=submit] {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #4c5baf;
     border: none;
     color: #fff;
     font-size: 20px;
@@ -54,5 +59,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #3e8e41;
+    background-color: #c579e2;
+}
+
+.alinhar {
+    text-align: center;
 }
