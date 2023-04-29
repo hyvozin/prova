@@ -1,41 +1,56 @@
-/* Styles for the body element */
-body {
-    background-color: #f0f0f0;
-  }
-  
-  /* Define o estilo para o cabeçalho com o título */
-h1 {
-    font-size: 36px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-  
-  h2 {
-    color: #666;
-    margin-top: 20px;
-  }
-  
-  /* Styles for the lists */
-  ul, ol {
-    margin-left: 30px;
-  }
-  
-  /* Styles for the contact information */
-  p:last-of-type {
-    margin-top: 30px;
-    font-weight: bold;
-  }
-  
-  /* Styles for the form */
-  form {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  /* Styles for the paragraph text */
-  p {
-    line-height: 1.5;
-    text-align: justify;
-  }
-  
+
+body {
+  font-family: 'Google Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+header {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #007bff;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+  color: #333;
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
