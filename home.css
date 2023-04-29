@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+  background-color: #333;
 }
 
 body {
@@ -43,10 +44,15 @@ nav a:hover {
 }
 
 main {
+  background-color: #fff;
 	max-width: 800px;
 	margin: 0 auto;
   color: #333;
 	padding: 20px;
+}
+
+main p {
+  background-color: #fff;
 }
 
 footer {
